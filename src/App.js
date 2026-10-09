@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { RefComponent } from './useref';
 import './App.css';
 
 export default function App() {
   return (
   <div>
     <Counter />
+    <RefComponent />
   </div>
   );
 }
