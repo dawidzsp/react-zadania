@@ -1,6 +1,6 @@
-import { RefComponent } from './useref';
-import { Counter } from './counter';
-import { UseEffectComponent } from './useeffect';
+import { RefComponent } from './components/useref';
+import { Counter } from './components/counter';
+import { UseEffectComponent } from './components/useeffect';
 import './App.css';
 
 export default function App() {
