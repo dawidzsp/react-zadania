@@ -1,5 +1,6 @@
 import { RefComponent } from './useref';
 import { Counter } from './counter';
+import { UseEffectComponent } from './useeffect';
 import './App.css';
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
   <div>
     <Counter />
     <RefComponent />
+    <UseEffectComponent />
   </div>
   );
 }

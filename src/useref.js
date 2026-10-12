@@ -21,8 +21,7 @@ export function RefComponent() {
                 </button>
                 <button
                     onClick={() => {
-                        alert(`Ilość kliknięć z refa: ${countRef.current}`);
-                        alert(`Ilość kliknięć bez refa: ${clickCounterNotRef}`);
+                        alert(`Ilość kliknięć z refa: ${countRef.current}\nIlość kliknięć bez refa: ${clickCounterNotRef}`);
                     }}
                 >
                     Sprawdź ilość kliknięć
